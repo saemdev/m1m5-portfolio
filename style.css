@@ -1,12 +1,14 @@
+/* common shared styles */
 body{
     font-family: 'Open Sans', sans-serif;
     margin:0;
 }
-
+/* all  the navs */
 nav{
     display:flex;
     display:flex;
     justify-content:space-between;
+    margin:0 200px;
 }
 .text-primary{
     color:#FD6E0A
@@ -41,4 +43,18 @@ nav li a {
 }
 h1{
     text-transform:capitalize;
+}
+/* all the headers */
+
+header{
+    background-color: #FFF8F3;
+}
+.banner{
+    display:flex;
+    padding:30px 30px 30px 200px;
+    align-items:center;
+}
+.banner img{
+    width:500px;
+    height:600px;
 }
