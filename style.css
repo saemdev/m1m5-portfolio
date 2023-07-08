@@ -1,60 +1,93 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-    margin:0;
+    margin: 0;
 }
+
 /* all  the navs */
-nav{
-    display:flex;
-    display:flex;
-    justify-content:space-between;
-    margin:0 200px;
+nav {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
 }
-.text-primary{
-    color:#FD6E0A
+
+.text-primary {
+    color: #FD6E0A
 }
-.btn-primary{
-    padding:13px 22px;
-    background-color:#FD6E0A;
-    color:white;
-    border:none;
+
+.btn-primary {
+    padding: 13px 22px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
     border-radius: 3px;
-    font-weight:600;
-    text-transform:capitalize;
+    font-weight: 600;
+    text-transform: capitalize;
 }
- nav>ul{
-    list-style:none;
-    display:flex;
-    align-items:center;
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
 }
-nav li{
-    list-style:none;
-    margin-right:50px;
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
 }
+
 nav li a {
-    text-decoration:none;
-    text-transform:capitalize;
-    font-size:15px;
-    color:#474747;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #474747;
 }
-.nav-title{
-    
-    color:#181818;
+
+.nav-title {
+
+    color: #181818;
 }
-h1{
-    text-transform:capitalize;
+
+h1 {
+    text-transform: capitalize;
 }
+
 /* all the headers */
 
-header{
+header {
     background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    display:flex;
-    padding:30px 30px 30px 200px;
-    align-items:center;
+
+.banner {
+    display: flex;
+    padding: 30px 30px 0px 200px;
+    align-items: center;
+    justify-content: space-between;
 }
-.banner img{
-    width:500px;
-    height:600px;
+
+.banner img {
+    width: 500px;
+    height: 600px;
+}
+
+.banner-greeting {
+    color:#474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+}
+.banner-title{
+    color:  #181818;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+margin:0;
+}
+.banner-content{
+    max-width: 500px;
 }
