@@ -76,9 +76,10 @@ h1 {
 
 header {
     background-color: #FFF8F3;
-    background-image: url(images/header_bg.png);
+    background-image: url('images/header_bg.png'),url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
+
 }
 
 .banner {
@@ -213,6 +214,7 @@ footer {
 .footer-column {
    width:50%;
    
+   
 }
 .contact input[type="text"], .contact input[type="email"],textarea{
     display: block;
@@ -225,4 +227,7 @@ footer {
 }
 .social-links a{
     margin-right:20px;
+}
+.footer-column .section-title, .section-description {
+    text-align: left;
 }
